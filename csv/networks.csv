@@ -1,0 +1,16 @@
+"id","organizationId","name","timeZone","tags","type","disableMyMerakiCom","disableRemoteStatusPage","configTemplateId"
+"L_646829496481100388","537758","CAMPUS-SFO","America/Los_Angeles"," Campuses ","combined",false,true,
+"L_646829496481091801","537758","RETAIL-SYD","Australia/Sydney"," Retail ","combined",false,true,
+"L_646829496481087792","537758","BRANCH-LON","Europe/London"," Branch_Offices ","combined",false,true,
+"N_646829496481093172","537758","Teleworker John Smith Z3","America/Los_Angeles"," Teleworkers ","appliance",false,true,"N_646829496481093174"
+"N_646829496481093173","537758","Teleworker Jane Doe Z1","America/Los_Angeles"," Teleworkers ","appliance",false,true,"N_646829496481093174"
+"N_646829496481093176","537758","Teleworker Ben Jones Z1","America/Los_Angeles"," Teleworkers ","appliance",false,true,"N_646829496481093174"
+"N_646829496481093177","537758","Teleworker Charles Woods Z1","America/Los_Angeles"," Teleworkers ","appliance",false,true,"N_646829496481093174"
+"N_646829496481093178","537758","Teleworker Eric Thomas Z1","America/Los_Angeles"," Teleworkers ","appliance",false,true,"N_646829496481093174"
+"L_646829496481098888","537758","DATACENTER-NA","America/Chicago"," Datacenters ","combined",false,true,
+"N_646829496481143649","537758","DATACENTER-NA-VPN_Concentrator","America/Chicago"," Datacenters ","appliance",false,true,
+"N_646829496481143735","537758","temp_net","America/Los_Angeles",,"appliance",false,true,
+"N_646829496481143883","537758","Teleworker Yolanda Delcambre Z3","America/Los_Angeles"," Teleworkers ","appliance",false,true,"N_646829496481093174"
+"N_646829496481143884","537758","Teleworker Maribel Perry Z3","America/Los_Angeles"," Teleworkers ","appliance",false,true,"N_646829496481093174"
+"N_646829496481146602","537758","DATACENTER-SA","America/Bogota",,"appliance",false,true,
+"N_646829496481149212","537758","DATACENTER-CA","America/Los_Angeles",,"appliance",false,true,

@@ -1,0 +1,49 @@
+"number","name","enabled","splashPage","ssidAdminAccessible","authMode","ipAssignmentMode","minBitrate","bandSelection","perClientBandwidthLimitUp","perClientBandwidthLimitDown","networkId","networkName","networkTemplateId","psk","encryptionMode","wpaEncryptionMode","radiusServers","radiusCoaEnabled","radiusAttributeForGroupPolicies","radiusFailoverPolicy","radiusLoadBalancingPolicy","walledGardenEnabled","useVlanTagging","defaultVlanId","walledGardenRanges"
+0,"sad",true,"None",false,"open","NAT mode",11,"Dual band operation with Band Steering",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+1,"So Cool!",true,"None",false,"psk","NAT mode",6,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,"meraki81","wpa","WPA1 and WPA2",,,,,,,,,
+2,"Dexter-Cessa",false,"Password-protected with custom RADIUS",false,"psk","NAT mode",6,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,"meraki81","wpa","WPA1 and WPA2","[{""host"":""23.23.234.126"",""port"":4344}]",,"Filter-Id","Deny access","Strict priority order",false,,,
+3,"Dexter-MA",true,"Password-protected with Meraki RADIUS",false,"psk","NAT mode",1,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,"meraki812123","wpa","WPA1 and WPA2",,,,,,false,,,
+4,".Starbucks Guest",true,"None",false,"open","Bridge mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,true,1,
+5,"Hotel-WiFi",false,"None",false,"psk","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,"solutions!!!","wpa","WPA1 and WPA2",,,,,,,,,
+6,"Unconfigured SSID 7",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+7,"Unconfigured SSID 8",true,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+8,"Unconfigured SSID 9",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+9,"Unconfigured SSID 10",true,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+10,"Unconfigured SSID 11",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+11,"Unconfigured SSID 12",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+12,"Unconfigured SSID 13",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+13,"Unconfigured SSID 14",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+14,"Unconfigured SSID 15",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"N_643451796760559911","Dexter LaBora - San Francisco",,,,,,,,,,,,,
+0,"PP-dev",true,"Click-through splash page",false,"psk","Bridge mode",6,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,true,false,,"52.18.144.140/32"
+1,".Free WiFi",false,"Password-protected with custom RADIUS",false,"open","NAT mode",6,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,,,,"[{""host"":""radius-eu-1.premiereportal.com"",""port"":1812}]",,"Filter-Id","Deny access","Strict priority order",true,,,"*.premiereportal.com"
+2,"dexter-click",false,"Click-through splash page",false,"psk","Bridge mode",6,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,true,false,,"52.18.144.140/32
+*.internetoflego.com
+excap-dexterlabora.c9users.io
+*.facebook.com
+*.fbcdn.net
+*.google.com
+*.google.co.uk
+*.gstatic.com
+*.googleusercontent.com
+*.bootstrapcdn.com
+*.linkedin.com
+*.licdn.com
+192.168.128.2/32
+*.twitter.com
+*.twimg.com
+*.c9users.io"
+3,"dexter-signon",false,"Password-protected with Meraki RADIUS",false,"psk","Bridge mode",12,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,true,false,,"52.18.144.140/32
+82.163.125.251/32
+*.internetoflego.com
+*.network-auth.com"
+4,"WWW",false,"Click-through splash page",false,"psk","NAT mode",1,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,true,,,"217.7.181.203/32"
+5,"Lab-escalations excap",false,"Click-through splash page",false,"psk","NAT mode",5.5,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,true,,,"213.161.68.14/32"
+6,"MR34 Bridge",false,"None",false,"psk","Bridge mode",1,"Dual band operation with Band Steering",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,,false,,
+7,".interwebs",false,"None",false,"psk","Bridge mode",1,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,,false,,
+8,".interwebs",false,"None",false,"psk","Bridge mode",12,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,"meraki81","wpa","WPA1 and WPA2",,,,,,,false,,
+9,"Unconfigured SSID 10",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,,,,,,,,,,,,
+10,"Unconfigured SSID 11",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,,,,,,,,,,,,
+11,"Unconfigured SSID 12",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,,,,,,,,,,,,
+12,"Unconfigured SSID 13",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,,,,,,,,,,,,
+13,"Unconfigured SSID 14",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,,,,,,,,,,,,
+14,"Unconfigured SSID 15",false,"None",false,"open","NAT mode",,"Dual band operation",0,0,"L_643451796760559856","Dexter LaBora - London",,,,,,,,,,,,,

@@ -1,0 +1,33 @@
+"id","networkId","name","applianceIp","subnet","fixedIpAssignments","reservedIpRanges","dnsNameservers","networkName","configTemplateId","configTemplateName"
+1,"L_646829496481100388","Infrastructure","172.16.1.1","172.16.1.0/24","{}","[{""start"":""172.16.1.1"",""end"":""172.16.1.50"",""comment"":""Reserved Static""}]","google_dns","CAMPUS-SFO",,
+50,"L_646829496481100388","Associates","172.16.50.1","172.16.50.0/24","{}","[]","upstream_dns","CAMPUS-SFO",,
+1,"L_646829496481091801","Infrastructure","172.18.1.1","172.18.1.0/24","{}","[]","google_dns","RETAIL-SYD",,
+5,"L_646829496481091801","Wireless Infrastructure","172.18.5.1","172.18.5.0/24","{}","[{""start"":""172.18.5.1"",""end"":""172.18.5.50"",""comment"":""static reserved""}]","google_dns","RETAIL-SYD",,
+10,"L_646829496481091801","Corp-Data","172.18.10.1","172.18.10.0/24","{}","[{""start"":""172.18.10.1"",""end"":""172.18.10.50"",""comment"":""Static Reserved""}]","google_dns","RETAIL-SYD",,
+20,"L_646829496481091801","Voice","172.18.20.1","172.18.20.0/24","{}","[{""start"":""172.18.20.1"",""end"":""172.18.20.50"",""comment"":""static reserved""}]","google_dns","RETAIL-SYD",,
+25,"L_646829496481091801","Telepresence","172.18.25.1","172.18.25.0/24","{}","[{""start"":""172.18.25.1"",""end"":""172.18.25.50"",""comment"":""static reserved""}]","google_dns","RETAIL-SYD",,
+30,"L_646829496481091801","Physical Security","172.18.30.1","172.18.30.0/24","{}","[{""start"":""172.18.30.1"",""end"":""172.18.30.50"",""comment"":""static reserved""}]","upstream_dns","RETAIL-SYD",,
+205,"L_646829496481091801","MPLS","192.168.205.18","192.168.205.0/24","{}","[]","upstream_dns","RETAIL-SYD",,
+1,"L_646829496481087792","Infrastructure","172.17.1.1","172.17.1.0/24","{}","[{""start"":""172.17.1.1"",""end"":""172.17.1.50"",""comment"":""Static Reserved""}]","google_dns","BRANCH-LON",,
+5,"L_646829496481087792","Wireless Infrastructure","172.17.5.1","172.17.5.0/24","{}","[{""start"":""172.17.5.1"",""end"":""172.17.5.50"",""comment"":""static reserved""}]","google_dns","BRANCH-LON",,
+10,"L_646829496481087792","Corp-Data","172.17.10.1","172.17.10.0/24","{""f0:03:8c:48:b0:97"":{""ip"":""172.17.10.52"",""name"":""BRANCH-LON-WIN1""}}","[{""start"":""172.17.10.1"",""end"":""172.17.10.50"",""comment"":""static reserved""}]","google_dns","BRANCH-LON",,
+20,"L_646829496481087792","Voice","172.17.20.1","172.17.20.0/24","{}","[{""start"":""172.17.20.1"",""end"":""172.17.20.50"",""comment"":""static reserved""}]","google_dns","BRANCH-LON",,
+25,"L_646829496481087792","Telepresence","172.17.25.1","172.17.25.0/24","{}","[{""start"":""172.17.25.1"",""end"":""172.17.25.50"",""comment"":""static reserved""}]","google_dns","BRANCH-LON",,
+30,"L_646829496481087792","Physical Security","172.17.30.1","172.17.30.0/24","{}","[{""start"":""172.17.30.1"",""end"":""172.17.30.50"",""comment"":""Static reserved""}]","google_dns","BRANCH-LON",,
+110,"N_646829496481093172","Corp VLAN","10.120.74.1","10.120.74.0/24","{}","[]","google_dns","Teleworker John Smith Z3","N_646829496481093174","Teleworkers"
+110,"N_646829496481093173","Corp VLAN","10.61.164.1","10.61.164.0/24","{}","[]","google_dns","Teleworker Jane Doe Z1","N_646829496481093174","Teleworkers"
+110,"N_646829496481093176","Corp VLAN","10.240.222.1","10.240.222.0/24","{}","[]","google_dns","Teleworker Ben Jones Z1","N_646829496481093174","Teleworkers"
+110,"N_646829496481093177","Corp VLAN","10.100.112.1","10.100.112.0/24","{}","[]","google_dns","Teleworker Charles Woods Z1","N_646829496481093174","Teleworkers"
+110,"N_646829496481093178","Corp VLAN","10.144.145.1","10.144.145.0/24","{}","[]","google_dns","Teleworker Eric Thomas Z1","N_646829496481093174","Teleworkers"
+1,"L_646829496481098888","Default","172.19.1.1","172.19.1.0/24","{}","[{""start"":""172.19.1.1"",""end"":""172.19.1.50"",""comment"":""Static Reserved""}]","google_dns","DATACENTER-NA",,
+30,"L_646829496481098888","Physical Security","172.19.30.1","172.19.30.0/24","{}","[]","upstream_dns","DATACENTER-NA",,
+1,"N_646829496481143735","Default","192.168.128.1","192.168.128.0/24","{}","[]","upstream_dns","temp_net",,
+110,"N_646829496481143883","Corp VLAN","10.44.221.1","10.44.221.0/24","{}","[]","google_dns","Teleworker Yolanda Delcambre Z3","N_646829496481093174","Teleworkers"
+110,"N_646829496481143884","Corp VLAN","10.53.183.1","10.53.183.0/24","{}","[]","google_dns","Teleworker Maribel Perry Z3","N_646829496481093174","Teleworkers"
+1,"N_646829496481146602","Infrastructure","172.20.1.1","172.20.1.0/24","{""70:88:6b:83:54:b5"":{""ip"":""172.20.1.20""}}","[]","opendns","DATACENTER-SA",,
+10,"N_646829496481146602","Corp-Data","172.20.10.1","172.20.10.0/24","{}","[]","opendns","DATACENTER-SA",,
+15,"N_646829496481146602","Server","172.20.15.1","172.20.15.0/24","{}","[]","opendns","DATACENTER-SA",,
+20,"N_646829496481146602","Voice","172.20.20.1","172.20.20.0/24","{}","[]","opendns","DATACENTER-SA",,
+25,"N_646829496481146602","Telepresence","172.20.25.1","172.20.25.0/24","{}","[]","opendns","DATACENTER-SA",,
+30,"N_646829496481146602","Physical Security","172.20.30.1","172.20.30.0/24","{}","[]","opendns","DATACENTER-SA",,
+205,"N_646829496481146602","MPLS","192.168.205.20","192.168.205.0/24","{}","[]","upstream_dns","DATACENTER-SA",,
