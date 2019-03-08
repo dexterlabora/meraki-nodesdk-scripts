@@ -6,6 +6,7 @@ https://www.apimatic.io/apidocs/meraki-api-oas-nfo/v/1#/node-js/
 ## Install
 
 `git clone <repo>`
+
 `npm install`
 
 ## Running Sample Scripts
@@ -20,7 +21,9 @@ Then, run the other calls that require an **orgId** such as `listDeviceStatuses`
 
 `$ node listDeviceStatuses.js -a 093b24e85df15a3e66f1fc359f4c48493eaa1b73 -o 537758 -f deviceStatuses.csv`
 
-###########################################################################################################
+## Dev Notes
+
+- This is just a test repoository for exploring the SDK. The `lib` folder is a copy of the SDK as this was not available on NPM at the time of writing.
 
 ## License
 
@@ -29,4 +32,5 @@ Apache
 ## Written by
 
 Cory Guynn | 2019
+
 # meraki-nodesdk-scripts
